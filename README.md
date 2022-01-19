@@ -28,9 +28,6 @@ DeepInversion is applied to invert a Mask R-CNN architecture, in order to produc
 We train for 2k iterations with a learning rate of 0.1 and an Adam optimizer. 
 
 ## Example Results
-![image_1427](https://user-images.githubu<img width="387" alt="Screen Shot 2022-01-19 at 12 42 44 AM" src="https://user-images.githubusercontent.com/40223805/150071167-4291fc9c-e04d-4f63-9558-76b5f3692c39.png">
-<img width="385" alt="Screen Shot 2022-01-19 at 12 42 49 AM" src="https://user-images.githubusercontent.com/40223805/150071171-95133320-bee4-4d80-98de-53c7264ea5dc.png">
-<img width="382" alt="Screen Shot 2022-01-19 at 12 42 56 AM" src="https://user-images.githubusercontent.com/40223805/150071174-9e3dbdaa-8b08-4b0a-a45f-357817199337.png">
-<img width="384" alt="Screen Shot 2022-01-19 at 12 43 01 AM" src="https://user-images.githubusercontent.com/40223805/150071177-f143e0e6-afe6-4f65-ae92-123f62e3e7e4.png">
-sercontent.com/40223805/150068945-1c70f960-f4bb-4118-bfc8-f057d24d707c.png)
+
+<img width="999" alt="Screen Shot 2022-01-19 at 12 45 39 AM" src="https://user-images.githubusercontent.com/40223805/150071425-211060dd-318d-46f2-81f7-e5010c309d95.png">
 
