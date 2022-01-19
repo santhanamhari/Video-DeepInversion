@@ -1,5 +1,5 @@
 # Binary Masks to Video Frames via DeepInversion
-Machine learning models rely on data for training, so they can help make real-world pre- dictions. The acquisition of such training data can be arduous in certain situations. For example, some models are developed and trained using data that is privacy protected. As a result, such datasets become inaccessible to researchers seeking to train new models and make predictions. If we can recover the training data from a pre-trained model, this can greatly aid in potential knowledge transfer. In this thesis, we use a recently developed technique called DeepInversion to synthesize video training data.
+Machine learning models rely on data for training, so they can help make real-world predictions. The acquisition of such training data can be arduous in certain situations. For example, some models are developed and trained using data that is privacy protected. As a result, such datasets become inaccessible to researchers seeking to train new models and make predictions. If we can recover the training data from a pre-trained model, this can greatly aid in potential knowledge transfer. In this thesis, we use a recently developed technique called DeepInversion to synthesize video training data.
 
 <img width="916" alt="Screen Shot 2022-01-19 at 12 36 57 AM" src="https://user-images.githubusercontent.com/40223805/150070495-acfce110-ea39-4036-bbe6-94f5f696b1b3.png">
 
@@ -28,6 +28,10 @@ DeepInversion is applied to invert a Mask R-CNN architecture, in order to produc
 - `bn` - scaling used for batch normalization loss
 
 We train for 2k iterations with a learning rate of 0.1 and an Adam optimizer. 
+
+## Methodology
+
+We use DeepInversion to invert a Mask R-CNN architecture to synthesize training data originally from the DAVIS video dataset. We perform noise optimization and minimize a classification loss as well as two auxiliary losses. The classification loss is defined by comparing a coarse mask to the ground truth mask label. Additionally, the two auxiliary losses are used to minimize noise and force the synthesized images towards the batch normalization statistics.  DeepInversion, with slight adaptions, shows great promise in creating high-fidelity synthetic frames for videos in the DAVIS dataset.
 
 ## Example Results
 
