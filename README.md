@@ -1,5 +1,8 @@
 # Binary Masks to Video Frames via DeepInversion
-DeepInversion is applied to invert a Mask R-CNN architecture, in order to produce synthetic frames of videos in the DAVIS dataset. We perform input optimization from random noise to high fidelity frames. Specifically, we optimize a classification loss, defined between ground truth and predicted coarse masks, as well as auxiliary losses that minimize noise and batch normalization statistic differences. The viability of our method is tested on many first frames of videos in the DAVIS set, with different auxiliary loss parameter scaling values for each frame. 
+DeepInversion is applied to invert a Mask R-CNN architecture, in order to produce synthetic frames of videos in the DAVIS dataset. We perform input optimization from random noise to high fidelity frames. Specifically, we optimize a classification loss, defined between ground truth and predicted coarse masks, as well as auxiliary losses that minimize noise and batch normalization statistic differences. The viability of our method is tested on many first frames of videos in the DAVIS set, with different auxiliary loss parameter scaling values for each frame.
+<img width="916" alt="Screen Shot 2022-01-19 at 12 36 57 AM" src="https://user-images.githubusercontent.com/40223805/150070495-acfce110-ea39-4036-bbe6-94f5f696b1b3.png">
+
+
 
 ## Requirements
 ```setup
