@@ -33,7 +33,7 @@ We train for 2k iterations with a learning rate of 0.1 and an Adam optimizer.
 
 We use DeepInversion to invert a Mask R-CNN architecture to synthesize training data originally from the DAVIS video dataset. We perform noise optimization and minimize a classification loss as well as two auxiliary losses. The classification loss is defined by comparing a coarse mask to the ground truth mask label. Additionally, the two auxiliary losses are used to minimize noise and force the synthesized images towards the batch normalization statistics.  DeepInversion, with slight adaptions, shows great promise in creating high-fidelity synthetic frames for videos in the DAVIS dataset.
 
-## Example Results
+## Results
 
 <img width="999" alt="Screen Shot 2022-01-19 at 12 45 39 AM" src="https://user-images.githubusercontent.com/40223805/150071425-211060dd-318d-46f2-81f7-e5010c309d95.png">
 
